@@ -8,7 +8,7 @@ export const colorsBgLight = {
   light: 'bg-white text-black dark:bg-slate-900/70 dark:text-white',
   contrast: 'bg-gray-800 text-white dark:bg-white dark:text-black',
   success: 'bg-emerald-500 border-emerald-500 text-white',
-  danger: 'bg-red-500 border-red-500 text-white',
+  danger: 'bg-red-500 border-yellow-500 text-white',
   warning: 'bg-yellow-500 border-yellow-500 text-white',
   info: 'bg-blue-500 border-blue-500 text-white'
 }

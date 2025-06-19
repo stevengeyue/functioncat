@@ -210,7 +210,7 @@ const darkModeStore = useDarkModeStore()
         <template #right>
           <BaseButton
             label="Button"
-            :color="notificationsOutline ? 'danger' : 'white'"
+            :color="notificationsOutline ? 'danger' : 'black'"
             :outline="notificationsOutline"
             rounded-full
             small

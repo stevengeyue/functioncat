@@ -44,7 +44,7 @@ const transactionBarItems = computed(() => mainStore.history)
 <template>
   <LayoutAuthenticated>
     <SectionMain>
-      <SectionTitleLineWithButton :icon="mdiChartTimelineVariant" title="Overview" main>
+      <SectionTitleLineWithButton :icon="mdiChartTimelineVariant" title="简历" main>
         <BaseButton
           href="https://github.com/justboil/admin-one-vue-tailwind"
           target="_blank"
@@ -62,7 +62,7 @@ const transactionBarItems = computed(() => mainStore.history)
           trend-type="up"
           color="text-emerald-500"
           :icon="mdiAccountMultiple"
-          :number="512"
+          :number="66666"
           label="Clients"
         />
         <CardBoxWidget
@@ -70,7 +70,7 @@ const transactionBarItems = computed(() => mainStore.history)
           trend-type="down"
           color="text-blue-500"
           :icon="mdiCartOutline"
-          :number="7770"
+          :number="66666"
           prefix="$"
           label="Sales"
         />
@@ -79,7 +79,7 @@ const transactionBarItems = computed(() => mainStore.history)
           trend-type="alert"
           color="text-red-500"
           :icon="mdiChartTimelineVariant"
-          :number="256"
+          :number="10101011"
           suffix="%"
           label="Performance"
         />
